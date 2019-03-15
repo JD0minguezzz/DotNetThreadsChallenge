@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="peopleModelStoreContainer" CdmEntityContainer="peopleEntities1">
+    <EntitySetMapping Name="people">
+      <EntityTypeMapping TypeName="peopleModel.person">
+        <MappingFragment StoreEntitySet="person">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="suffix" ColumnName="suffix" />
+          <ScalarProperty Name="address_line1" ColumnName="address_line1" />
+          <ScalarProperty Name="address_line2" ColumnName="address_line2" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="state_province_name" ColumnName="state_province_name" />
+          <ScalarProperty Name="country_region_name" ColumnName="country_region_name" />
+          <ScalarProperty Name="postal_code" ColumnName="postal_code" />
+          <ScalarProperty Name="phone_number" ColumnName="phone_number" />
+          <ScalarProperty Name="birth_date" ColumnName="birth_date" />
+          <ScalarProperty Name="education" ColumnName="education" />
+          <ScalarProperty Name="occupation" ColumnName="occupation" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="marital_status" ColumnName="marital_status" />
+          <ScalarProperty Name="home_owner_flag" ColumnName="home_owner_flag" />
+          <ScalarProperty Name="number_cars_owned" ColumnName="number_cars_owned" />
+          <ScalarProperty Name="number_children_at_home" ColumnName="number_children_at_home" />
+          <ScalarProperty Name="total_children" ColumnName="total_children" />
+          <ScalarProperty Name="yearly_income" ColumnName="yearly_income" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
