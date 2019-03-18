@@ -1,16 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace ChallengeManager
 {
+    /// <summary>
+    /// This class contains the operations necessary to process user input.
+    /// </summary>
     public class SetFeatures
     {
+        /// <summary>
+        /// Establishes the specific threads to be implemented, depending on the features that the user wants to execute.
+        /// </summary>
+        /// <param name="states">Boolean array that determines whether a feature is on or off.</param>
         public static void CheckState(bool[] states)
         {
+            /// <value>List of string arrays containing the rows result of the .csv file reading.</value>
             List<string[]> rows = ReadCsv.Read();
 
             if (states[2])
@@ -31,28 +35,7 @@ namespace ChallengeManager
                 Thread insertToDbThread = new Thread(() => InsertPerson.Insert(rows, states[1]));
                 writeFileThread.Start();
                 insertToDbThread.Start();
-                //ThreadStart aThread = new ThreadStart(WriteFiles);
-                //ThreadStart bThread = new ThreadStart(InsertToDB);
-
-                //Thread writeFileThread = new Thread(aThread);
-                //Thread insertToDbThread = new Thread(bThread);
-
-                //writeFileThread.Start();
-                //insertToDbThread.Start();
-
-                //Console.WriteLine(Thread.CurrentThread.ManagedThreadId);
             }
         }
-
-        /*private static void WriteFiles(bool useLog)
-        {
-            WriteFile.Write(rows, useLog);
-        }*/
-
-        /*private static void InsertToDB()
-        {
-            //var insertPerson = new InsertPerson();
-            InsertPerson.Insert(rows, states[1]);
-        }*/
     }
 }
