@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PeopleDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="20" />
+    <Property Name="first_name" Type="varchar" MaxLength="50" />
+    <Property Name="middle_name" Type="varchar" MaxLength="50" />
+    <Property Name="last_name" Type="varchar" MaxLength="50" />
+    <Property Name="suffix" Type="varchar" MaxLength="20" />
+    <Property Name="address_line1" Type="varchar" MaxLength="255" />
+    <Property Name="address_line2" Type="varchar" MaxLength="255" />
+    <Property Name="city" Type="varchar" MaxLength="255" />
+    <Property Name="state_province_name" Type="varchar" MaxLength="255" />
+    <Property Name="country_region_name" Type="varchar" MaxLength="255" />
+    <Property Name="postal_code" Type="varchar" MaxLength="255" />
+    <Property Name="phone_number" Type="varchar" MaxLength="255" />
+    <Property Name="birth_date" Type="date" />
+    <Property Name="education" Type="varchar" MaxLength="255" />
+    <Property Name="occupation" Type="varchar" MaxLength="255" />
+    <Property Name="gender" Type="varchar" MaxLength="10" />
+    <Property Name="marital_status" Type="varchar" MaxLength="10" />
+    <Property Name="home_owner_flag" Type="int" />
+    <Property Name="number_cars_owned" Type="int" />
+    <Property Name="number_children_at_home" Type="int" />
+    <Property Name="total_children" Type="int" />
+    <Property Name="yearly_income" Type="int" />
+  </EntityType>
+  <EntityContainer Name="PeopleDBModelStoreContainer">
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

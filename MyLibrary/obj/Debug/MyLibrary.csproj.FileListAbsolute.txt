@@ -1,6 +1,0 @@
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\bin\Debug\MyLibrary.dll
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\bin\Debug\MyLibrary.pdb
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\obj\Debug\MyLibrary.csprojAssemblyReference.cache
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\obj\Debug\MyLibrary.csproj.CoreCompileInputs.cache
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\obj\Debug\MyLibrary.dll
-C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\MyLibrary\obj\Debug\MyLibrary.pdb

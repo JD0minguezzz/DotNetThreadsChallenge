@@ -1,0 +1,15 @@
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\ChallengeManager.dll
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\ChallengeManager.pdb
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\obj\Debug\ChallengeManager.csproj.CoreCompileInputs.cache
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\obj\Debug\ChallengeManager.dll
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\obj\Debug\ChallengeManager.pdb
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\NLog.config
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\ChallengeManager.dll.config
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\EntityFramework.dll
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\NLog.dll
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\EntityFramework.xml
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\bin\Debug\NLog.xml
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\obj\Debug\ChallengeManager.csprojAssemblyReference.cache
+C:\Users\jdominguez\OneDrive - ENDAVA\Documents\challenges\DotNetThreadsChallenge\ThreadsChallenge\ChallengeManager\obj\Debug\ChallengeManager.csproj.CopyComplete
