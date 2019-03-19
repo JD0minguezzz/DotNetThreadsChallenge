@@ -58,6 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbOperation.cs" />
     <Compile Include="InsertPerson.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Person.Context.cs">

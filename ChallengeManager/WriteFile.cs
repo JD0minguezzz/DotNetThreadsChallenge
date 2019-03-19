@@ -31,7 +31,7 @@ namespace ChallengeManager
                 }
                 writer.Close();
 
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
             }
             Log.SetLogger(useLog, "INFO", null, "Files creation finished.");
         }

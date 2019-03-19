@@ -25,7 +25,7 @@ namespace ChallengeManager
                     Log.SetLogger(useLog, "ERROR", exception, "Couldn't write to database.");
                 }
 
-                Thread.Sleep(800);
+                //Thread.Sleep(800);
             }
         }
 
